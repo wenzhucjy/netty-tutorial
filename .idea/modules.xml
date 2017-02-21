@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chat-netty4/chat-client/chat-client.iml" filepath="$PROJECT_DIR$/chat-netty4/chat-client/chat-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat-netty4/chat-common/chat-common.iml" filepath="$PROJECT_DIR$/chat-netty4/chat-common/chat-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat-netty4/chat-netty4.iml" filepath="$PROJECT_DIR$/chat-netty4/chat-netty4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat-netty4/chat-server/chat-server.iml" filepath="$PROJECT_DIR$/chat-netty4/chat-server/chat-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-4/client/client.iml" filepath="$PROJECT_DIR$/netty-4/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-4/common-util/common-util.iml" filepath="$PROJECT_DIR$/netty-4/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-4/netty-4.iml" filepath="$PROJECT_DIR$/netty-4/netty-4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocol/netty-protocol/netty-protocol.iml" filepath="$PROJECT_DIR$/protocol/netty-protocol/netty-protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-turotial.iml" filepath="$PROJECT_DIR$/netty-turotial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty3/netty3.iml" filepath="$PROJECT_DIR$/netty3/netty3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nio/nio.iml" filepath="$PROJECT_DIR$/nio/nio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protobuf/protobuf.iml" filepath="$PROJECT_DIR$/protobuf/protobuf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/protocol/protocol.iml" filepath="$PROJECT_DIR$/protocol/protocol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-4/server/server.iml" filepath="$PROJECT_DIR$/netty-4/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty3/tutorial-demo1/tutorial-demo1.iml" filepath="$PROJECT_DIR$/netty3/tutorial-demo1/tutorial-demo1.iml" />
+    </modules>
+  </component>
+</project>

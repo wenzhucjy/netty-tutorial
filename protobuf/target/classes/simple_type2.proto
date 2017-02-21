@@ -1,0 +1,14 @@
+option java_package = "com.serial.jprotobuf";
+
+message SimpleType{
+
+	required string name = 1; // 名称
+
+	required int32 value = 2; // value
+
+	enum EnumAttrPOJO{
+        STRING=100;
+        INT=50;
+    }
+    optional EnumAttrPOJO attrPojo = 3[default = STRING];
+}

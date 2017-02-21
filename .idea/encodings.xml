@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-netty4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-netty4/chat-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-netty4/chat-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/chat-netty4/chat-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-4" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-4/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-4/common-util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-4/server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty3/tutorial-demo1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protobuf" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocol" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/protocol/netty-protocol" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

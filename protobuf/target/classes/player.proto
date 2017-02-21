@@ -1,0 +1,40 @@
+option java_package = "com.serial.protobuf";
+option java_outer_classname = "PlayerModule";
+
+message PBPlayer{
+	required int64 playerId = 1;
+
+	required int32 age = 2;
+
+	required string name = 3;
+
+	repeated int32 skills = 4;
+
+}
+
+message PBResource{
+	required int64 gold = 1;
+
+	required int32 energy = 2;
+
+    // 扩展BaseData，加上一个Data类型的字段，tag为100
+    extend BaseData {
+        required PBResource extend_data = 100;
+    }
+
+}
+
+// 定义一个message BaseData，100~199之间的tag可供扩展
+message BaseData {
+    required int32 code = 1;
+    extensions 100 to 199;
+}
+
+// 定义一个message Foo，100~200之间的tag可供扩展
+message Foo{
+    extensions 100 to 200;
+}
+// 扩展Foo，加上一个 bar，tag为100
+extend Foo {
+    optional int32 bar = 126;
+}

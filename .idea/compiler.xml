@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="chat-client" />
+        <module name="chat-common" />
+        <module name="chat-server" />
+        <module name="client" />
+        <module name="common (1)" />
+        <module name="common-util" />
+        <module name="netty-protocol" />
+        <module name="nio" />
+        <module name="protobuf" />
+        <module name="server" />
+        <module name="tutorial-demo1" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="chat-client" target="1.8" />
+      <module name="chat-common" target="1.8" />
+      <module name="chat-netty4" target="1.8" />
+      <module name="chat-server" target="1.8" />
+      <module name="client" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common (1)" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="netty" target="1.8" />
+      <module name="netty-4" target="1.8" />
+      <module name="netty-protocol" target="1.8" />
+      <module name="netty-turotial" target="1.8" />
+      <module name="netty3" target="1.8" />
+      <module name="netty4" target="1.8" />
+      <module name="netty4.1.6" target="1.8" />
+      <module name="nio" target="1.8" />
+      <module name="protobuf" target="1.8" />
+      <module name="protocol" target="1.8" />
+      <module name="server" target="1.8" />
+      <module name="tutorial-demo1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

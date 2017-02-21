@@ -1,0 +1,33 @@
+option java_package = "com.serial.jprotobuf.nested";
+
+message Person{
+
+	required string name = 1;
+
+	required int32 id = 2;
+
+    optional string email = 3;
+
+    optional double doubleF = 4;
+
+    optional float floatF = 5;
+
+    optional bytes bytesF = 6;
+
+    optional bool boolF = 7;
+
+	enum EnumAttrPOJO{
+        STRING=100;
+        INT=50;
+    }
+    optional EnumAttrPOJO attrPojo = 8[default = STRING];
+}
+
+message AddressBookProtosPOJO {
+
+    optional Person person = 1;
+    repeated Person persons = 2;
+    repeated string stringList = 3;
+    repeated int32 intList = 4;
+
+}
